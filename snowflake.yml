@@ -1,0 +1,7 @@
+definition_version: 1
+streamlit:
+  name: image_similarity_search_app
+  stage: streamlit
+  query_warehouse: COMPUTE_WH
+  main_file: image_similarity_streamlit_app.py
+  title: "🔍 Image Similarity Search"

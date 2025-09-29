@@ -1,5 +1,7 @@
 # Image Similarity Search with Snowflake Cortex Search (BYOV)
 
+NOTE: BYOV is currently in Private Preview. Reach out to your Snowflake Account Team with any question.
+
 This project demonstrates how to implement an image similarity search system using Snowflake's Cortex Search with "Bring Your Own Vector" (BYOV) capabilities. The demo shows how to create vector embeddings for images and build a search service to find visually similar images.
 
 ## 📓 Notebook (`cortex_search_byov_demo.ipynb`)

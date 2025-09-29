@@ -2,7 +2,7 @@
 
 This project demonstrates how to implement an image similarity search system using Snowflake's Cortex Search with "Bring Your Own Vector" (BYOV) capabilities. The demo shows how to create vector embeddings for images and build a search service to find visually similar images.
 
-## 📓 Jupyter Notebook (`cortex_search_byov_demo.ipynb`)
+## 📓 Notebook (`cortex_search_byov_demo.ipynb`)
 
 The notebook provides a complete walkthrough of building an image similarity search system with the following components:
 
@@ -11,7 +11,7 @@ The notebook provides a complete walkthrough of building an image similarity sea
 - **Snowflake Integration**: Sets up database tables, stages, and handles both local and Snowflake-native environments
 - **Image Processing Pipeline**: Downloads images from URLs and stores them in Snowflake stages
 - **Vector Generation**: Uses Snowflake's `AI_EMBED` function with the `voyage-multimodal-3` model to create vector embeddings for each image
-- **Cortex Search Service**: Creates a multi-index search service that combines text and vector indexes for image similarity search
+- **Cortex Search Service**: Creates a multi-index search service that leverages vector indexes for image similarity search
 - **Testing & Validation**: Demonstrates querying the search service to find visually similar images
 
 ### Workflow:
